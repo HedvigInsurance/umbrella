@@ -3,21 +3,21 @@
 import PackageDescription
 
 let package = Package(
-  name: "umbrella",
+  name: "HedvigShared",
   platforms: [
     .iOS(.v14),
   ],
   products: [
     .library(
-      name: "umbrella",
-      targets: ["umbrella"]
+      name: "HedvigShared",
+      targets: ["HedvigShared"]
     )
   ],
   targets: [
     .binaryTarget(
-      name: "umbrella",
-      url: "https://github.com/HedvigInsurance/umbrella/releases/download/0.0.20250707082022/umbrella.xcframework.zip",
-      checksum: "5fe4b98b7a339ccb9994f649b0d4fe9b0a2e536e78cb38d980ea7c8af515f70f"
+      name: "HedvigShared",
+      url: "https://github.com/HedvigInsurance/umbrella/releases/download/0.0.20250707133019/HedvigShared.xcframework.zip",
+      checksum: "4317b6ab35637afdf3bc68b20ab1997d5f44108490050a02901dc6cac029c664"
     )
   ]
 )
