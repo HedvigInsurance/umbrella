@@ -1,6 +1,6 @@
 ### Umbrella
 
-![logo_wide.png](icons/logo_wide.png)
+![logo.png](icons/logo.png)
 
 This project is an XCFramework acting as the "Umbrella", encompassing all of the code that we share between the [Android](https://github.com/HedvigInsurance/android) and the [iOS](https://github.com/HedvigInsurance/ugglan) projects.  
 The shared code lives inside the Android repository as normal github projects which happen to be KMP compatible.  
