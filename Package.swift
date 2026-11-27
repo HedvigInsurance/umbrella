@@ -16,8 +16,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "HedvigShared",
-      url: "https://github.com/HedvigInsurance/umbrella/releases/download/0.0.20261126143056/HedvigShared.xcframework.zip",
-      checksum: "ff40451ec20b2131caa99b7bff5771284d254d70f399c4208b0cef0180aaa07f"
+      url: "https://github.com/HedvigInsurance/umbrella/releases/download/0.0.20261127021845/HedvigShared.xcframework.zip",
+      checksum: "80d3bd483fc37e837fbd45bc814c996d8b90c9078b4f1cfca61c56ac8d726e38"
     )
   ]
 )
